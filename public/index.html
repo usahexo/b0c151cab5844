@@ -69,6 +69,147 @@
 
       <div class="outer">
         <section id="main">
+  <article id="post-How-to-create-a-Discord-casino-bot-for-Jungle-Jim-and-the-Lost-Sphinx-Game" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/10/How-to-create-a-Discord-casino-bot-for-Jungle-Jim-and-the-Lost-Sphinx-Game/">How to create a Discord casino bot for Jungle Jim and the Lost Sphinx Game</a>
+    </h1>
+  
+
+
+      </header>
+    
+    <div class="article-meta">
+      
+      <span class="article-date">
+  <i class="fa fa-date"></i>
+  <time class="dt-published" datetime="2022-10-28T22:40:55.000Z" itemprop="datePublished">2022-10-29</time>
+</span>
+      
+  <div class="article-category">
+    <i class="fa fa-classify"></i>
+    <a class="article-category-link" href="/categories/Online-casino/">Online casino</a>
+  </div>
+
+      
+      
+
+
+
+    </div>
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="How-to-create-a-Discord-casino-bot-for-Jungle-Jim-and-the-Lost-Sphinx-Game"><a href="#How-to-create-a-Discord-casino-bot-for-Jungle-Jim-and-the-Lost-Sphinx-Game" class="headerlink" title="How to create a Discord casino bot for Jungle Jim and the Lost Sphinx Game"></a>How to create a Discord casino bot for Jungle Jim and the Lost Sphinx Game</h1><p>In this article, we are going to create a casino bot for the popular discord game Jungle Jim and the Lost Sphinx. The casino bot will allow players to gamble their gold coins in exchange for more powerful items and rewards.</p>
+<p>The first thing we need to do is create a new discord Bot. To do this, open up your discord client and navigate to the following menu:</p>
+<p>Settings &gt; Connections &gt; Bots</p>
+<p>From here, click on the “Create a Bot” button at the bottom of the page:</p>
+<p>Next, you will be prompted to enter in some basic information about your bot. We will just name our bot “CasinoBot” and leave the rest of the fields blank:</p>
+<p>Once you have created your bot, you will need to obtain its Client ID and Secret Key. To do this, open up your browser and navigate to the following page:</p>
+<p><a target="_blank" rel="noopener" href="https://discordapp.com/developers/applications/me?tab=oauth2&amp;scope=bot&amp;token=">https://discordapp.com/developers/applications/me?tab=oauth2&amp;scope=bot&amp;token=</a><YOUR_BOT_CLIENT_ID>&amp;response_type&#x3D;code</p>
+<p>Replace “<YOUR_BOT_CLIENT_ID>“ with the Client ID obtained from your bots settings page. Next, copy the Secret Key and paste it into the field labeled “Token”. Finally, hit the “Authorize” button.<br>You should now see a screen that looks like this:</p>
+<p>Copy both the “Client ID” and “Token” fields as we will need them later. Now that we have our Bot’s information, let’s move on to creating our casino game!</p>
+<h1 id="How-to-set-up-a-Discord-casino-bot-for-Jungle-Jim-and-the-Lost-Sphinx-Game"><a href="#How-to-set-up-a-Discord-casino-bot-for-Jungle-Jim-and-the-Lost-Sphinx-Game" class="headerlink" title="How to set up a Discord casino bot for Jungle Jim and the Lost Sphinx Game"></a>How to set up a Discord casino bot for Jungle Jim and the Lost Sphinx Game</h1><p>In this article, we cover how to set up a Discord casino bot for Jungle Jim and the Lost Sphinx Game.</p>
+<p>To do this, we first need to install the necessary software. We’ll be using Node.js and the Discord.js library.</p>
+<p>Once Node.js is installed, we can create a new project by running the following command in the terminal:</p>
+<p>npm init -y</p>
+<p>This will create a new project file called package.json . Next, we need to install the Discord.js library by running the following command:</p>
+<p>npm install discord.js –save</p>
+<p>This will install the Discord.js library and save it as a dependency in our package.json file.</p>
+<p>Next, we need to create a file called server.js and add the following code to it:</p>
+<p>var Discord &#x3D; require ( ‘discord.js’ ); var client &#x3D; new Discord . Client (); client . on ( ‘message’ , function ( message ) { if ( message . type &#x3D;&#x3D;&#x3D; ‘ping’ ) { console . log ( ‘pong!’ ); } }); client . login ( ‘token’ , ‘user_id’ );</p>
+<p>This code creates a new Discord client and listens for messages from other users in our chat channel. If the message type is ping , then pong! will be printed to the console. Finally, we need to run this code by running the following command in the terminal:</p>
+<p> node server . js</p>
+<p>Now that our server is set up, we can start creating our casino bot. First, let’s create a file called bot.js and add the following code to it:</p>
+<p>var Discord &#x3D; require ( ‘discord.js’ ); var casino &#x3D; { slots : 0 , blackjack : 0 }; client . on ( ‘message’ , function ( message ) { if ( message . type &#x3D;&#x3D;&#x3D; ‘ping’ ) { console . log ( ‘pong!’ ); } else if ( message . type &#x3D;&#x3D;&#x3D; ‘chat’ ) { if ( message . content &#x3D;&#x3D;&#x3D; ‘&#x2F;start’ ) { casino . slots ++ ; } else if ( message . content &#x3D;&#x3D;&#x3D; ‘&#x2F;bet 10’ ) { casino . blackjack ++ ; } else { console . log ( <code> $&#123; message . content &#125; not allowed</code> ); } } }); client . login ( ‘token’ , ‘user_id’ );</p>
+<p>This code defines a function called casino which keeps track of our current slot and blackjack totals. We also have an onMessage() function which prints an error message if someone tries to bet something that isn’t allowed or if they send us a ping message. Finally, we need to import this file into our server by adding the following line of code:</p>
+<p>require(‘.&#x2F;bot.js’);</p>
+<p>Now that our bot is set up, we can start playing games! To start playing slots, send &#x2F;start to our chat channel and our bot will increment our slot total by one. To play blackjack, send &#x2F;bet 10 instead and our bot will increment our blackjack total by one.</p>
+<h1 id="Creating-a-Discord-casino-bot-for-Jungle-Jim-and-the-Lost-Sphinx-Game"><a href="#Creating-a-Discord-casino-bot-for-Jungle-Jim-and-the-Lost-Sphinx-Game" class="headerlink" title="Creating a Discord casino bot for Jungle Jim and the Lost Sphinx Game"></a>Creating a Discord casino bot for Jungle Jim and the Lost Sphinx Game</h1><p>Discord casino bots are all the rage lately, because they allow people to play games and gamble with each other in a more fun and interactive way. And what could be more perfect for this than Jungle Jim and the Lost Sphinx – a new game that is all about adventure and risk?</p>
+<p>Creating a Discord casino bot for Jungle Jim and the Lost Sphinx is actually pretty simple. You just need to know how to code in Python, and then you can use the Discord API to create your bot. In this article, we will show you how to do just that!</p>
+<p>First, you need to create a new Discord server if you don’t already have one. This is where your bot will live, and it’s also a great place for people to come and chat while they play games. To create a server, just go to <a target="_blank" rel="noopener" href="https://discordapp.com/">https://discordapp.com/</a> and click on “Create a Server”.</p>
+<p>Once you have created your server, you need to join it as an administrator. This will give you access to all of the server’s settings, which you will need in order to create your bot. To join your server as an administrator, just click on the link that says “Administrators” under the “Server Settings” tab:</p>
+<p>Now that you are an administrator of your server, it’s time to create your bot! To do this, you need to use the Discord API. The Discord API allows you to create bots that can interact with Discord servers. For more information on how to use the Discord API, check out their documentation here: <a target="_blank" rel="noopener" href="https://discordapp.com/developers/docs/introduction-to-the-api">https://discordapp.com/developers/docs/introduction-to-the-api</a></p>
+<p>In order to create your bot, you first need to install Python. If you don’t already have Python installed on your computer, you can find instructions on how to do so here: <a target="_blank" rel="noopener" href="https://www.python.org/downloads/">https://www.python.org/downloads/</a>. Once Python is installed, open up a terminal or command prompt and type in the following command:</p>
+<p>python -m pip install discordio</p>
+<p>This will install the Discordio library, which is required in order to use the Discord API. Once Python is installed and the Discordio library is installed, you are ready to start creating your bot!</p>
+<p>To create your bot, open up a text editor (such as Notepad on Windows or TextEdit on macOS) and enter the following code:</p>
+<p>import discord</p>
+<p>import json</p>
+<p>def main():</p>
+<pre><code> print(&#39;Hello world!&#39;)
+
+# Login as an administrator of your server
+
+auth = discord.Token(&#39;YOUR_DISCORD_TOKEN&#39;)
+
+# Get access to yourserver&#39;s settings
+
+client = discord.Client(auth)
+</code></pre>
+<p>&#x3D;Settings()</p>
+<p>client.[‘servers’].[‘YOUR_DISCORD_SERVER_ID’].[‘bots’] &#x3D; [{‘name’: ‘YOUR_BOT_NAME’, ‘application’: ‘discordgo’, ‘id’: ‘YOUR_BOT_ID’, ‘channel’: ‘#YOUR_BOT_CHANNEL’, ‘permissions’: [‘read’, ‘write’], }]</p>
+<p> if <strong>name</strong> &#x3D;&#x3D; “<strong>main</strong>“: main()</p>
+<h1 id="How-to-make-a-Discord-casino-bot-for-Jungle-Jim-and-the-Lost-Sphinx-Game"><a href="#How-to-make-a-Discord-casino-bot-for-Jungle-Jim-and-the-Lost-Sphinx-Game" class="headerlink" title="How to make a Discord casino bot for Jungle Jim and the Lost Sphinx Game"></a>How to make a Discord casino bot for Jungle Jim and the Lost Sphinx Game</h1><p>In this article, we will show you how to make a Discord casino bot for Jungle Jim and the Lost Sphinx Game. This bot will allow you to bet on outcomes of random events and win rewards.</p>
+<p>First, we will create a new Discord server. Then, we will create a new role called “Casino Bot”. This role will have permissions to send messages in the #casino-bot channel. We will also create a new channel called #casino.</p>
+<p>Next, we will install the discord.js library. This library allows us to interact with Discord servers from our NodeJS applications. We can install it using the following command:</p>
+<p>npm i discord.js –save</p>
+<p>We will then create a new file called casino-bot.js and require the discord.js library. We will also define a function called main() which will initialize our bot and listen for messages in the #casino-bot channel:</p>
+<p>const Discord &#x3D; require ( ‘discord.js’ ); const client &#x3D; new Discord . Client (); &#x2F;&#x2F; The main() function defines our bot’s behavior. It takes two arguments: &#x2F;&#x2F; 1) The name of the role that our bot should join &#x2F;&#x2F; 2) The name of the channel where our bot should listen for messages function main ( role , channel ) { client . once ( ‘join’ , function ( member ) { console . log ( <code> $&#123; member . name &#125; has joined the Casino Bot Role!</code> ); }); client . on ( ‘message’ , function ( message ) { if ( message . content &#x3D;&#x3D;&#x3D; ‘start’ ) { &#x2F;&#x2F; Our game is starting! console . log ( <code>The game has started!</code> ); } else if ( message . content &#x3D;&#x3D;&#x3D; ‘end’ ) { &#x2F;&#x2F; Our game is ending! Console . log ( <code>The game has ended!</code> ); } else if ( message . content &#x3D;&#x3D;&#x3D; ‘bet’ ) { &#x2F;&#x2F; Betting is happening! Bet on your favorite outcome and see who wins! console . log ( <code>$&#123; message . sender &#125; has bet on $&#123; message . target &#125;</code> ); } }); } main ( ‘Casino Bot’ , ‘#casino-bot’ );</p>
+<p>Now, we need to create an account on Jungle Jim’s website and get an API key. We can do this by clicking on Get API Key in the sidebar menu:</p>
+<p>Once we have generated an API key, we can copy it and paste it into our casino-bot.js file as follows:</p>
+<p>const JungleJim &#x3D; require ( ‘jungle-jim-api’ ); const jungleJimApi &#x3D; new JungleJim ({ apiKey : ‘’ }); &#x2F;&#x2F; … Other code omitted for brevity … const client &#x3D; new Discord . Client (); const jungleJimApi &#x3D; new JungleJim ({ apiKey : ‘’ }); function main ( role , channel ) { client . once ( ‘join’ , function ( member ) { console . log ( <code> $&#123; member . name &#125; has joined the Casino Bot Role!</code> ); }); client . on ( ‘message’ , function ( message ) { if ( message . content &#x3D;&#x3D;&#x3D; ‘start’ ) { &#x2F;&#x2F; Our game is starting! console . log ( <code>The game has started!</code> ); } else if ( message . content &#x3D;&#x3D;&#x3D; ‘end’ ) { &#x2F;&#x2F; Our game is ending! Console . log ( <code>The game has ended!</code> ); } else if (( message [ ‘contentType’ ] &#x3D;&#x3D;&#x3D; ‘text&#x2F;plain’ &amp;&amp; ! &#x2F;^(https?://|http://)(\w*.)+junglejims.com/wp-admin/post.php$&#x2F;) &amp;&amp; message [ ‘content’ ]) { &#x2F;&#x2F; Handle betting requests from users let action &#x3D; JSON . parse ( message [ ‘content’ ]); let outcome &#x3D; action [ 0 ]; let amount &#x3D; parseInt (( action [ 1 ] || 0 )); let side &#x3D; action [ 2 ]; let reward &#x3D; parseInt (( action [ 3 ] || 0 )); client . query ([ [‘cmd’, ‘&#x2F;event_results’, null, null], [‘args’, JSON.stringify({ event: outcome })], [‘id’, side] ], function(err, data) { if (!err) { console . log ([ data ]. map (([ row ]) &#x3D;&gt; row [ 1 ])); reward +&#x3D; Math.floor( Math.random() * 1000000 ); jungleJimApi . update ({ event : outcome }, { amount : amount , side : side }, reward , () &#x3D;&gt; console . log (‘Updated!’)) }); } else { console . error (‘Error fetching event results: ‘, err); } }); }; }; main (‘Casino Bot’, ‘#casino-bot’);</p>
+<h1 id="Tips-on-creating-a-Discord-casino-bot-for-Jungle-Jim-and-the-Lost-Sphinx-Game"><a href="#Tips-on-creating-a-Discord-casino-bot-for-Jungle-Jim-and-the-Lost-Sphinx-Game" class="headerlink" title="Tips on creating a Discord casino bot for Jungle Jim and the Lost Sphinx Game"></a>Tips on creating a Discord casino bot for Jungle Jim and the Lost Sphinx Game</h1><p>If you are looking to create a Discord casino bot for Jungle Jim and the Lost Sphinx Game, here are some tips to help get you started:</p>
+<ol>
+<li>Decide on the features that you want your bot to have.</li>
+</ol>
+<p>Your bot will need to be able to do the following:</p>
+<ul>
+<li>Handle game sessions - Keep track of player balances - Deal cards and manage bets - Announce results and pay out winnings</li>
+</ul>
+<ol start="2">
+<li>Choose a language for your bot.</li>
+</ol>
+<p>Python is a popular choice for casino bots, as it is easy to learn and has a wide range of libraries that allow you to easily add features. Other languages such as NodeJS or Java can also be used, but may require more coding skills.</p>
+<ol start="3">
+<li>Set up your development environment.</li>
+</ol>
+<p>You will need to install Python (or another language) and the necessary libraries for your chosen platform. Instructions on how to do this can be found online. You will also need a Discord account in order to test your bot.</p>
+<ol start="4">
+<li>Create your bot’s basic functionality.</li>
+</ol>
+<p>This involves writing the code that will allow your bot to perform common tasks such as handling game sessions, tracking player balances, and dealing cards. A good place to start is with one of the many casino bot frameworks available online.</p>
+<ol start="5">
+<li>Add extra features as needed.</li>
+</ol>
+<p>Once your bot’s basic functionality is working, you can start adding extra features such as chatbots, random number generators, or even a UI front-end. If you are not sure how to do this, there are plenty of online resources available that can help get you started.</p>
+
+        
+        
+      
+    </div>
+    <footer class="article-footer">
+      
+        <div class="article-tag-wrap">
+          
+
+          
+          
+
+
+        </div>
+      
+      
+      
+    </footer>
+  </div>
+</article>
+
+
   <article id="post-Number-Games-Game---Fun-Way-To-Pass-Time" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-inner">
     
@@ -809,79 +950,6 @@
 </article>
 
 
-  <article id="post-What-is-the-Bons-Casino-in-Japan" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2022/09/What-is-the-Bons-Casino-in-Japan/">What is the Bons Casino in Japan</a>
-    </h1>
-  
-
-
-      </header>
-    
-    <div class="article-meta">
-      
-      <span class="article-date">
-  <i class="fa fa-date"></i>
-  <time class="dt-published" datetime="2022-09-22T14:11:44.000Z" itemprop="datePublished">2022-09-22</time>
-</span>
-      
-  <div class="article-category">
-    <i class="fa fa-classify"></i>
-    <a class="article-category-link" href="/categories/Bons-Casino/">Bons Casino</a>
-  </div>
-
-      
-      
-
-
-
-    </div>
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1 id="What-is-the-Bons-Casino-in-Japan"><a href="#What-is-the-Bons-Casino-in-Japan" class="headerlink" title="What is the Bons Casino in Japan?"></a>What is the Bons Casino in Japan?</h1><p>The Bons Casino is an establishment in Japan that is dedicated to gambling. It features a wide variety of games, from slot machines and roulette to baccarat and blackjack. The casino also has a number of restaurants and bars, as well as a luxury hotel, making it a great place for a weekend getaway.</p>
-<p>The Bons Casino is one of the largest in Japan, and it’s become quite popular with locals and tourists alike. The casino offers a wide range of games, which makes it perfect for players of all levels of experience. And thanks to its excellent facilities, the casino is also a great place to relax and have some fun.</p>
-<h1 id="Who-founded-the-Bons-Casino-in-Japan"><a href="#Who-founded-the-Bons-Casino-in-Japan" class="headerlink" title="Who founded the Bons Casino in Japan?"></a>Who founded the Bons Casino in Japan?</h1><p>The Bons Casino in Japan was founded by the Yononaka family in 1984. The Yononaka family has been in the casino industry for over 100 years and owns several other casinos around the world. The Bons Casino is one of the most popular casinos in Japan and has won several awards for its service and gaming options.</p>
-<h1 id="When-was-the-Bons-Casino-in-Japan-founded"><a href="#When-was-the-Bons-Casino-in-Japan-founded" class="headerlink" title="When was the Bons Casino in Japan founded?"></a>When was the Bons Casino in Japan founded?</h1><p>The Bons Casino in Japan was founded in 1965 by the Kajima Corporation.</p>
-<h1 id="What-type-of-gambling-is-available-at-the-Bons-Casino-in-Japan"><a href="#What-type-of-gambling-is-available-at-the-Bons-Casino-in-Japan" class="headerlink" title="What type of gambling is available at the Bons Casino in Japan?"></a>What type of gambling is available at the Bons Casino in Japan?</h1><p>There are a range of gambling options available at the Bons Casino in Japan. The casino offers traditional games such as blackjack and roulette, as well as Japanese-style games such as pachinko and ikarugi. There is also a range of slot machines available, as well as electronic table games.</p>
-<h1 id="What-is-the-minimum-age-limit-for-gambling-at-the-Bons-Casino"><a href="#What-is-the-minimum-age-limit-for-gambling-at-the-Bons-Casino" class="headerlink" title="What is the minimum age limit for gambling at the Bons Casino?"></a>What is the minimum age limit for gambling at the Bons Casino?</h1><p>The minimum age limit for gambling at the Bons Casino is 20 years old.</p>
-<h1 id="Do-I-need-to-be-a-resident-of-Japan-to-gamble-at-the-Bons-Casino"><a href="#Do-I-need-to-be-a-resident-of-Japan-to-gamble-at-the-Bons-Casino" class="headerlink" title="Do I need to be a resident of Japan to gamble at the Bons Casino?"></a>Do I need to be a resident of Japan to gamble at the Bons Casino?</h1><p>No, you do not need to be a resident of Japan to gamble at the Bons Casino. However, you must have a valid passport and visa if you are not a Japanese citizen.</p>
-<h1 id="What-is-the-dress-code-at-the-Bons-Casino"><a href="#What-is-the-dress-code-at-the-Bons-Casino" class="headerlink" title="What is the dress code at the Bons Casino?"></a>What is the dress code at the Bons Casino?</h1><p>The dress code at the Bons Casino is smart casual. This means that you should dress appropriately for going out to eat or attend a business meeting. Jeans, t-shirts and sneakers are not allowed.</p>
-<h1 id="Where-is-the-Bons-Casino-in-Japan-located"><a href="#Where-is-the-Bons-Casino-in-Japan-located" class="headerlink" title="Where is the Bons Casino in Japan located?"></a>Where is the Bons Casino in Japan located?</h1><p>The Bons Casino is located in the city of Osaka, Japan. It is a relatively small casino, but it features a number of popular table games and slot machines.</p>
-<p>The casino is open 24 hours a day, seven days a week. Admission is free for players who are at least 18 years old, and the casino offers a variety of promotions and special events throughout the year.</p>
-<p>The Bons Casino is situated in the heart of the city’s entertainment district, so there is no shortage of restaurants, bars, and other attractions nearby. The casino also has a hotel attached to it, which makes it a convenient destination for gamers who want to stay overnight.</p>
-<h1 id="What-are-some-of-the-table-games-offered-at-the-Bons-Casino"><a href="#What-are-some-of-the-table-games-offered-at-the-Bons-Casino" class="headerlink" title="What are some of the table games offered at the Bons Casino?"></a>What are some of the table games offered at the Bons Casino?</h1><p>The Bons Casino offers a wide range of popular table games, including blackjack, baccarat, roulette, and craps. There are also several poker tables available for those who prefer that game.</p>
-<p>In addition to standard table games, the casino also offers proprietary variants such as Gin Rummy Blackjack and Rapid Roulette. These unique games can be great fun for experienced players who want to try something new.</p>
-<h1 id="What-are-some-of-the-slot-machines-available-at-the-Bons-Casino"><a href="#What-are-some-of-the-slot-machines-available-at-the-Bons-Casino" class="headerlink" title="What are some of the slot machines available at the Bons Casino?"></a>What are some of the slot machines available at the Bons Casino?</h1><p>The Bons Casino has more than 100 different slot machines available for players to enjoy. These include both traditional slot machines and more modern video slots with exciting bonus rounds and large jackpots.</p>
-<p>There are also several progressive jackpot slots available at the casino, so players have a chance to win some truly life-changing sums of money.</p>
-
-        
-        
-      
-    </div>
-    <footer class="article-footer">
-      
-        <div class="article-tag-wrap">
-          
-
-          
-          
-
-
-        </div>
-      
-      
-      
-    </footer>
-  </div>
-</article>
-
-
 
     <nav id="page-nav">
 
@@ -900,6 +968,10 @@
       <ul>
         
           <li>
+            <a href="/2022/10/How-to-create-a-Discord-casino-bot-for-Jungle-Jim-and-the-Lost-Sphinx-Game/">How to create a Discord casino bot for Jungle Jim and the Lost Sphinx Game</a>
+          </li>
+        
+          <li>
             <a href="/2022/10/Number-Games-Game---Fun-Way-To-Pass-Time/">Number Games Game   Fun Way To Pass Time</a>
           </li>
         
@@ -915,10 +987,6 @@
             <a href="/2022/10/Authentic-Gaming-to-launch-in-Greektown-Casino-on-October-1!/">Authentic Gaming to launch in Greektown Casino on October 1!</a>
           </li>
         
-          <li>
-            <a href="/2022/10/Casino-Adopts-Bitcoin-to-Speed-Up-Transactions-/">Casino Adopts Bitcoin to Speed Up Transactions</a>
-          </li>
-        
       </ul>
     </div>
   </div>
@@ -929,7 +997,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title"><i class="fa fa-classify"></i> Categories</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Bons-Casino/">Bons Casino</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Digital-Media/">Digital Media</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Internet-Casino/">Internet Casino</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Run-Casino/">Run Casino</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Social-Media/">Social Media</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Vegas-X-Casino/">Vegas X Casino</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/vegas-x-casino/">vegas x casino</a><span class="category-list-count">1</span></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Bons-Casino/">Bons Casino</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Digital-Media/">Digital Media</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Internet-Casino/">Internet Casino</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Online-casino/">Online casino</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Run-Casino/">Run Casino</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Social-Media/">Social Media</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Vegas-X-Casino/">Vegas X Casino</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/vegas-x-casino/">vegas x casino</a><span class="category-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -939,7 +1007,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title"><i class="fa fa-archive"></i> Archive</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/10/">2022-10</a><span class="archive-list-count">6</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/09/">2022-09</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/08/">2022-08</a><span class="archive-list-count">1</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/10/">2022-10</a><span class="archive-list-count">7</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/09/">2022-09</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/08/">2022-08</a><span class="archive-list-count">1</span></li></ul>
     </div>
   </div>
 
